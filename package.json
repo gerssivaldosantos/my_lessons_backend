@@ -1,0 +1,26 @@
+{
+  "name": "to_do_api",
+  "version": "1.0.0",
+  "description": "Api para ser usada no app My Lessons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerssivaldosantos/to_do_node.git"
+  },
+  "author": "Gerssivaldo Oliveira Dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerssivaldosantos/to_do_node/issues"
+  },
+  "homepage": "https://github.com/gerssivaldosantos/to_do_node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0"
+  }
+}
