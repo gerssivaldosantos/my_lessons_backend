@@ -14,13 +14,13 @@ router.get('/api/lessons', async (req, res)=>{
 });
 
 router.get('/api/lessons/create', async (req, res)=>{
-    for (let i = 0; i < 5; i++){
+  
         await Lesson.create({
             Name: faker.name.firstName(),
             Description: faker.vehicle.vehicle(),
             Icon: faker.image.avatar()
         })
-    }
+    
     res.json({message: "5 lessons created"})
 })
 
