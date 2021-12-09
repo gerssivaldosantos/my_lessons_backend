@@ -18,7 +18,7 @@ router.get('/api/lessons/create', async (req, res) => {
     await Lesson.create({
         Name: faker.hacker.ingverb(),
         Description: faker.lorem.sentences(),
-        Icon: faker.image.technics()
+        Icon: faker.image.animals()
     })
 
     res.json({ message: "lessons created" })
