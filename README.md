@@ -1,1 +1,1 @@
-# to_do_node
+# Backend to My Lessons app
